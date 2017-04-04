@@ -1,0 +1,63 @@
+
+
+.main-section {
+
+    background-color: #ac9455;
+    width:100%;
+
+
+    &-header {
+
+      border-color:black;
+
+
+    }
+
+    &-body {
+
+      width: 1175px;
+      height: 650px;
+
+    }
+
+    &-cake{
+
+    position: absolute;
+    right: -56px;
+    top: 165px;
+
+    }
+
+    &-paragraph{
+
+      position: absolute;
+      bottom: 65px;
+      width: 361px;
+      right: 507px;
+      color: #faf9f6;
+      font-family: 'Open Sans', sans-serif;
+      font-size:14px;
+    }
+
+    &-more{
+
+      position: absolute;
+      bottom: 45px;
+      left: 372px;
+
+    }
+
+    &-link{
+
+      color: white;
+      text-decoration: none;
+      letter-spacing: 0.2em;
+      font-size: 11px;
+      font-family: 'Montserrat', sans-serif;
+    }
+}
+
+.grid-item{
+
+  display:inline;
+}

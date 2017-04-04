@@ -1,0 +1,34 @@
+/* project nav */
+
+.project-nav{
+
+                margin-right: -61px;
+              &-item {
+                display:inline-block;
+              }
+
+              &-link {
+                margin-left:5px;
+                font-size: 12px;
+                text-decoration: none;
+                color:#ac9455;
+                font-family: 'montserrat-semibold';
+                border: 1px solid transparent;
+                border-radius: 23px;
+                padding: 12px 25px;
+                letter-spacing: 0.1em;
+
+                &:hover {
+                    border: solid 1px #282828;
+                    color:white;
+                    background-color: #282828;
+                }
+
+              }
+
+              &-list{
+
+              }
+
+
+              }

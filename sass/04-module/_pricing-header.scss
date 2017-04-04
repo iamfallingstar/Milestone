@@ -1,0 +1,24 @@
+/*pricing header*/
+
+
+
+
+.pricing-header {
+
+    &-logo {
+        float: left;
+        margin: 12px 46px;
+
+        img {
+            width: 106px;
+            height: 50px;
+        }
+    }
+
+    &-nav {
+        float: right;
+        margin:15px -94px;
+
+
+    }
+}

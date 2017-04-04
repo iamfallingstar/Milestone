@@ -1,0 +1,96 @@
+/* Feature */
+.feature {
+            position: relative;
+            top:-40px;
+
+            &-inner {
+
+
+                  width:389px;
+                  padding-top: 61px;
+                  display: inline-block;
+                  text-align: center;
+                  padding-left: 66px;
+
+
+
+
+
+                &:nth-of-type(2)
+              {
+
+                  padding-top: 41px;
+                  display: inline-block;
+                  text-align: center;
+                  padding-left: 65px;
+                  width:389px;
+              }
+
+
+                  &:last-of-type
+                  {
+                    margin-top: 28px;
+                    padding-left: 83px;
+                    width:389px;
+                    padding-top: 41px;
+                    display: inline-block;
+
+                  }
+
+
+
+                &-heading {
+               text-align: center;
+               color: black;
+               margin-top:40px;
+               font-size: 30px;
+               font-family: Montserrat-black, sans-serif;
+               margin-left: 84px;
+           }
+
+              }
+
+              &-content {
+
+                width:347px;
+              }
+
+            &-position {
+
+              color:#ac9455;
+              font-size: 14px;
+              font-family: myriad pro;
+              letter-spacing: 0.1em;
+            }
+
+            &-name {
+
+              color:black;
+              font-family:'Montserrat', sans-serif;
+              letter-spacing: 0.2em;
+              font-size: 19px;
+              margin-top: 36px;
+              margin-left: 10px;
+            }
+
+            &-description {
+
+              color:grey;
+              font-size:13px;
+              font-family: 'Open Sans', sans-serif;
+              margin:auto;
+              padding-bottom: 50px;
+            }
+
+            &-more {
+
+                font-size: 12px;
+                color:black;
+                letter-spacing: 0.2em;
+                text-decoration: none;
+                border: 2px solid #ac9455;
+                padding: 14px 36px;
+                border-radius: 25px;
+                font-family:'Montserrat-regular', sans-serif;
+            }
+            }

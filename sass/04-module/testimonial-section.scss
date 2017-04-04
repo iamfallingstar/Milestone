@@ -1,0 +1,32 @@
+/* Testimonial */
+
+.testimonial-section {
+
+            background-color: #1f1f1f;
+            width:100%;
+            padding-top: 10px;
+            padding-bottom: 50px;
+
+
+
+          &-heading {
+
+            text-align: center;
+            color: white;
+            margin-top:50px;
+            font-size: 50px;
+
+
+          }
+          &-paragraph {
+
+            color:#5a5a5a;
+            text-align: center;
+            font-size: 14px;
+            font-family: 'open Sans', sans-serif;
+            margin-top: -22px;
+            margin-left: 94px;
+
+    }
+
+}

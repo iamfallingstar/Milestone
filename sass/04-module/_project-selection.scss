@@ -1,0 +1,38 @@
+/* project-selection */
+
+.project-selection {
+                      padding-top:20px;
+
+
+
+
+                    &-photo {
+
+                      display:inline-block;
+                      text-decoration: none;
+                      width: 33.10%;
+
+
+                    }
+
+                  p:hover {
+
+                      color: white;
+                    }
+
+                    img {
+
+
+                      border-radius: 7px;
+                      width:100%;
+
+                    }
+                    &-text
+                    {
+                      text-align: center;
+                      font-size: 11px;
+                      font-family: 'Montserrat-regular';
+                      color:#7a7a7a;
+                      letter-spacing: 0.1em;
+                    }
+                  }

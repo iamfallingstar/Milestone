@@ -1,0 +1,181 @@
+/* Product */
+
+.product {
+            width:575px;
+            padding-top: 37px;
+            display: inline-block;
+            vertical-align: top;
+
+            &-container {
+
+              text-align: center;
+              padding:10px;
+            }
+
+            &-sizes {
+                  text-align: left;
+                  padding:0px;
+
+            }
+
+            &-number{
+
+              display: inline-block;;
+              border: 1px solid grey;
+              padding: 5px 10px;
+              margin:3px;
+              min-width: 17px;
+              text-align: center;
+              background:transparent;
+              transition: background 0.6s ease-in-out;
+
+              &.is-active { background: #ac9455;}
+
+              &:hover {
+                cursor: pointer;
+              }
+
+              &.is-unavailable {
+                background-color: #e5e5e5;
+              }
+
+            }
+
+            &-shoes-photo {
+
+              margin-top: 50px;
+            }
+            &-photo
+            {
+              display: inline;
+              padding-right: 29px;
+            }
+            &-price
+            {
+              font-size: 34px;
+              text-align: left;
+              margin-top: 26px;
+              margin-left: 45px;
+              font-family: montserrat-light;
+            }
+            &-discount
+            {
+              font-size: 20px;
+              position: absolute;
+              margin-top: -67px;
+              margin-left: -68px;
+              display: inline-block;
+              font-family: montserrat-light;
+
+              &:before {
+
+              content: "";
+              position: absolute;
+              width: 100%;
+              border-top: 2px solid red;
+              left: 0;
+              top: 50%;
+}
+
+
+            }
+            &-selection
+            {
+              text-align: left;
+              letter-spacing: 0.2em;
+              font-size: 12px;
+              font-family: 'Montserrat-regular', sans-serif;
+              margin-left: 13px;
+              padding-top: 15px;
+
+            }
+            &-section-heading
+            {
+              font-size: 48px;
+              text-align: left;
+              margin: 0;
+              width: 85%;
+              font-family: playfairdisplay-black;
+              margin-left: 44px;
+              margin-top: -11px;
+              line-height: 1.1em;
+
+
+            }
+            &-section
+            {
+              background-color: #fff;
+              width:100%;
+              padding-top: 30px;
+              padding-bottom: 30px;
+            }
+
+            &-quantity{
+
+              margin-left: 50px;
+
+
+            }
+            &-quantity-text
+            {
+              text-align: left;
+              font-family: 'montserrat-regular';
+              font-size: 12px;
+              margin-top: 16px;
+              letter-spacing: 0.1em;
+
+            }
+
+            &-section-paragraph
+            {
+              text-align: left;
+              font-size: 14px;
+              font-family: 'Open Sans', sans-serif;
+              color: #bebebe;
+              margin-top: -14px;
+              margin-left: 46px;
+              width: 100%;
+
+            }
+
+          &-link
+          {
+            text-align: left;
+            margin-top: 55px;
+            margin-left: 50px;
+
+          }
+
+          &-add {
+            border: solid 1px #ac9455;
+            border-radius: 35px;
+            margin-right: 25px;
+            padding:15px 30px;
+            background-color: white;
+            text-decoration: none;
+            color:black;
+            transition: background-color 0.3s ease-in-out;
+            font-size: 12px;
+            letter-spacing: .2em;
+            font-family: montserrat;
+          }
+          &-buy
+          {
+            border: solid 1px black;
+            border-radius: 35px;
+            padding:15px 44px;
+            border: solid 1px #ac9455;
+            background-color: white;
+            text-decoration: none;
+            color:black;
+            transition: background-color 0.3s ease-in-out;
+            font-size: 12px;
+            letter-spacing: .2em;
+            font-family: montserrat;
+          }
+
+          a:hover
+          {
+            background-color: #ac9554;
+          }
+          }

@@ -1,0 +1,92 @@
+/* nav */
+
+
+
+.nav {
+
+
+    &-main {
+        &-list {
+
+                    margin-right: -25px;
+        }
+
+
+        &-item {
+            display: inline-block;
+            padding:0px 9px;
+
+          &:last-child {
+            padding: 0;
+
+            &:hover {
+
+
+                a{border:0;}
+            }
+}
+
+        }
+
+        &-link {
+            text-decoration: none;
+            color:white;
+            font-size: 13px;
+            letter-spacing: 0.2em;
+            font-family: 'Montserrat', sans-serif;
+
+            &-search{
+
+              text-decoration: none;
+              color:white;
+              font-size: 13px;
+              letter-spacing: 0.2em;
+              font-family: 'Montserrat', sans-serif;
+
+  }
+            &-pad{
+
+              border: 1px solid transparent;
+              border-radius: 22px;
+              padding:12px 19px;
+
+
+            }
+
+            &:hover {
+                border: solid 1px #cabb93;
+            }
+        }
+    }
+
+    &-sub {
+
+
+
+
+        &-list {
+            text-align: right;
+            margin-right: -55px;
+
+
+        }
+
+        &-item {
+            display: inline-block;
+            padding: 0px 9px;
+
+            &:last-child {
+              padding: 0;
+            }
+
+        }
+
+        &-link {
+            text-decoration: none;
+            margin-left:15px;
+            color: #e5d3a4;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 13px;
+        }
+    }
+}

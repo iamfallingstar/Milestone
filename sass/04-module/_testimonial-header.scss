@@ -1,0 +1,25 @@
+/*testimial-header*/
+
+
+.testimonial-header {
+  position: relative;
+  top: 45px;
+
+    &-logo {
+      float: left;
+      margin-left: 46px;
+
+      img {
+          width: 106px;
+          height: 50px;
+      }
+
+    }
+
+    &-nav {
+        float: right;
+        margin: 0px -100px;
+
+
+    }
+}

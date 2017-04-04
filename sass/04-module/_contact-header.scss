@@ -1,0 +1,32 @@
+/* contact header */
+
+
+.contact-header {
+
+    &-logo {
+        float: left;
+        top: 60px;
+        margin-left: 214px;
+          padding-top: 21px;
+
+
+        img {
+            width: 106px;
+            height: 50px;
+        }
+
+        &-clearfix
+        {
+          clear:both;
+        }
+    }
+
+    &-nav {
+        float: right;
+        right:-120px;
+        position: absolute;
+        top:41px;
+
+
+    }
+}

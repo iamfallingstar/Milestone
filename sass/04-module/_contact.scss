@@ -1,0 +1,121 @@
+/* contact us */
+.contact
+{
+          &-section{
+
+            width:100%;
+
+          }
+
+          &-us {
+
+            margin-top: -70px;
+            margin-right: 269px;
+            font-size: 45px;
+            font-family: playfairdisplay-black;
+            color:#fff;
+            padding-bottom: 14px;
+          }
+
+          &-container {
+
+          }
+
+          &-form  {
+
+
+            border: 1px solid white;
+            border-radius: 5px;
+            width: 39.5%;
+            height: 48%;
+            background-color: white;
+            margin-left:492px;
+          }
+
+          &-input-text {
+
+            margin-top: 50px;
+  /* margin-left: 0px; */
+            width: 511px;
+            height: 45px;
+
+          }
+
+          &-input-email {
+            margin-top: 16px;
+            margin-bottom: 31px;
+            width: 508px;
+            height: 43px;
+          }
+
+          &-input-message {
+
+            margin-top: -15px;
+            margin-bottom: 96px;
+
+            width: 506px;
+            height: 107px;
+            border: 1px solid rgba(204, 204, 204, 0.77);
+              }
+
+          &-input-submit {
+
+            border: 1px solid #ac9456;
+            border-radius: 25px;
+            padding: 12px 32px;
+            position: absolute;
+            margin: -71px -63px;
+            background-color: #ac9456;
+            color:#fff;
+
+          }
+
+          &-list  {
+
+            display: inline-block;
+            padding-left: 72px;
+            vertical-align: top;
+            margin-top: -4px;
+
+
+
+
+          }
+          &-information {
+
+
+            color:white;
+            margin-left: -64px;
+            padding-top: 10px;
+
+          }
+
+          &-options{
+
+              font-family: montserrat-semibold;
+              font-size: 13px;
+              letter-spacing: 0.2em;
+              margin-top: 11px;
+
+          }
+
+          &-details
+          {
+            font-family: opensans;
+            margin-top: -20px;
+            font-size: 14px;
+          }
+
+
+          &-media {
+
+          margin-left: -18px;
+
+          }
+
+          &-facebook {
+            display: inline-block;
+            padding-left: 22px;
+          }
+
+        }

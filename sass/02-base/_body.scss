@@ -1,0 +1,40 @@
+/*body #ac9455;*/
+
+html,body
+{
+  margin: 0;
+  padding:0;
+}
+html
+{
+    height: 100%;
+}
+body
+{
+    width: 100%;
+}
+
+input {
+  &:focus,
+  &:hover,
+  &:active {
+    outline: none;
+  }
+
+  &:focus {
+    background: #000;
+  }
+}
+
+textarea {
+  &:focus,
+  &:hover,
+  &:active {
+    outline: none;
+  }
+  &:focus {
+    background: #000;
+  }
+
+
+}

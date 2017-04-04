@@ -1,0 +1,118 @@
+/* card */
+
+.card
+{
+  position: relative;
+    top: -40px;
+
+
+&-inner{
+
+
+    width:389px;
+    padding-top: 41px;
+    display: inline-block;
+    text-align: center;
+    padding-left: 50px;
+
+
+
+
+
+  &:nth-of-type(2)
+{
+
+    padding-top: 41px;
+    display: inline-block;
+    text-align: center;
+    padding-left: 65px;
+    width:389px;
+}
+
+
+    &:last-of-type
+    {
+      margin-top: 28px;
+      padding-left: 83px;
+      width:389px;
+      padding-top: 41px;
+      display: inline-block;
+
+    }
+
+
+
+
+    &-heading {
+
+      color: white;
+      font-size: 50px;
+      text-align: center;
+      font-family: playfair display;
+      margin-left: 91px;
+}
+
+}
+
+&-content{
+
+  width:386px;
+
+
+}
+
+
+& img{
+
+border-radius: 50%;
+width: 123px;
+height: 124px;
+border: 1px solid #ac9455;
+
+}
+
+&-position{
+
+  color:#ac9455;
+  font-size: 11px;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.1em;
+  margin-top: -7px;
+}
+
+&-name{
+
+  color:white;
+  font-family: Montserrat-black;
+  letter-spacing: 0.2em;
+  font-size: 20px;
+  padding-top: 19px;
+
+}
+
+&-description{
+
+  color:grey;
+  font-family: 'open sans', sans-serif;
+  font-size: 14px;
+  margin-top:20px;
+  margin-left: 0px;
+
+}
+&-quote{
+
+  font-weight: bold;
+  font-size: 37px;
+  color:#3b3b3b;
+  margin-left: -40px;
+}
+}
+
+
+
+hr{
+
+  width:16%;
+  margin-top: 23px;
+  border-color: grey;
+}

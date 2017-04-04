@@ -1,0 +1,66 @@
+/*product-sizes*/
+
+.radio {
+          cursor: pointer;
+          display: inline-block;
+          padding-bottom: 25px;
+          text-align: center;
+          padding-top: 10px;
+
+    &-box-size {
+              display: inline-block;
+
+              position: relative;
+              top: 51px;
+              margin-right: 1px;
+
+
+
+            }
+            &-box-input {
+              opacity: 0;
+            }
+            &-box-input:checked + &-box-style-size &-box-style-inner-size {
+              opacity: 1;
+            }
+            &-box-style-size {
+              display: block;
+              width: 40px;
+              height: 40px;
+              border-radius: 3px;
+              position: absolute;
+              top: -42px;
+              left: -9px;
+              background: #fff;
+              border: 1px solid #e5e5e5;
+              z-index: 1;
+              line-height: 40px;
+
+              &.is-unavailable {
+
+                  background-color: #e5e5e5;
+                }
+            }
+
+            &-box-style-inner-size {
+              opacity: 0;
+              display: block;
+              position: absolute;
+              top: -6px;
+              left: -6px;
+              background: #ac9455;
+              height: 100%;
+              width: 100%;
+              transform: translate3d(6px, 6px, 0);
+              transition: opacity .5s;
+              z-index: -1;
+            }
+}
+
+fieldset {
+
+            border:0px;
+            text-align: left;
+            margin-left: 21px;
+
+}

@@ -1,0 +1,306 @@
+/* price card */
+
+
+
+
+.price-card
+{
+
+   $price-card:&;
+
+  background-color: white;
+  width: 266px;
+  height: 428px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 5px;
+
+  font-family: montserrat;
+
+
+
+
+
+  &-sign-up-now {
+
+      border: 1px solid black;
+      padding: 13px 36px;
+      border-radius: 20px;
+      text-decoration: none;
+      color: white;
+      background-color: black;
+      font-family: montserrat-semibold;
+      font-size: 12px;
+      letter-spacing: 0.1em;
+  }
+
+  &-rate {
+
+    margin:0px;
+    margin-top: -6px;
+    margin-left: 19px;
+
+      }
+
+      &-rate-item{
+
+        font-family: montserrat-bold;
+      }
+
+  &-price {
+
+    display:inline-block;
+
+  }
+
+  &-currency {
+
+            color: #ac9455;
+            font-size: 33px;
+
+          }
+
+  &-decimal {
+
+              display: block;
+              font-size: 28px;
+              color: #ac9455;
+              margin-left: -20px;
+            }
+
+
+            &-unit {
+
+              font-size: 67px;
+
+              color: #ac9455;
+            }
+
+            &-monthly {
+
+            display: block;
+            font-family: montserrat;
+
+            }
+
+            &-usage{
+
+              padding-bottom: 39px;
+              margin-left: -20px;
+              margin-top: -2px;
+              line-height: 2.9em;
+              font-size: 13px;
+              font-family: opensans;
+
+}
+
+            &-item {
+
+              display: block;
+
+
+            }
+
+            &-list {
+
+                      padding:5px;
+                      margin-left: -30px;
+                      font-weight: bold;
+
+            }
+
+            &-standard {
+
+              margin: 0px;
+              padding-top: 38px;
+              margin-left: -5px;
+              font-family: montserrat-semibold;
+              font-size: 14px;
+              letter-spacing: 0.1em;
+            }
+
+
+
+            //modifier//
+            &-featured
+            {
+              background-color: black;
+
+              #{$price-card}-currency {
+
+                  color: #fff;
+                  font-size: 33px;
+                }
+
+                #{$price-card}-rate{
+
+                  margin: 0px;
+                margin-top: -6px;
+                margin-left: 19px;
+                }
+
+
+                  #{$price-card}-unit{
+
+                    color: #fff;
+                    font-size: 67px;
+
+                  }
+                  #{$price-card}-decimal
+                  {
+                    color: #fff;
+                    margin-left: -20px;
+                    display: block;
+                    font-size: 28px;
+                  }
+                  #{$price-card}-monthly
+                  {
+                    color: #797979;
+                    display: block;
+                    font-family: montserrat;
+                  }
+                  #{$price-card}-premium
+                  {
+                    color: #fff;
+                    margin: 0px;
+                    padding-top: 38px;
+                    margin-left: -5px;
+                    font-family: montserrat-semibold;
+                    font-size: 14px;
+                    letter-spacing: 0.1em;
+                  }
+
+                    #{$price-card}-list
+                    {
+                      color: #fff;
+                      font-weight: bold;
+                    }
+                    #{$price-card}-item
+                    {
+                      color: #fff;
+                      font-weight: bold;
+                    }
+                    #{$price-card}-info{
+                      color:#6f603b;
+                      font-weight: bold;
+                    }
+                    #{$price-card}-sign-up-now
+                    {
+
+                                        border: 1px solid #ac9455;
+                                        padding: 13px 36px;
+                                        border-radius: 20px;
+                                        text-decoration: none;
+                                        color: white;
+                                        background-color: #ac9455;
+                                        font-family: montserrat-semibold;
+                                        font-size: 12px;
+                                        letter-spacing: 0.1em;
+
+                    }
+
+                  }
+                  $price-card:&;
+                  //modifier//
+                  &-highlights
+                  {
+                    border-radius: 5px;
+                    border: 1px solid #ac9455;
+
+
+
+                    #{$price-card}-body {
+
+                      background-color: #ac9455;
+                    }
+                    #{$price-card}-delux{
+
+
+                      color:#fff;
+                      margin: 0px;
+                      padding-top: 32px;
+                      margin-left: -5px;
+                      font-family: montserrat-semibold;
+                      font-size: 14px;
+                      letter-spacing: 0.1em;
+
+                    }
+                    #{$price-card}-unlimited
+                    {
+
+                        color:#fff;
+                        margin: 0px;
+                        padding-top: 38px;
+                        margin-left: -5px;
+                        font-family: montserrat-semibold;
+                        font-size: 14px;
+                        letter-spacing: 0.1em;
+
+
+                    }
+
+                    #{$price-card}-usage
+                    {
+
+                      padding-bottom: 39px;
+                      margin-left: -20px;
+                      margin-top: 20px;
+                      line-height: 2.9em;
+                      font-size: 13px;
+                      font-family: opensans;
+                    }
+                    #{$price-card}-currency {
+
+                        color: #fff;
+                        font-size: 33px;
+                      }
+
+                        #{$price-card}-unit{
+
+                          color: #fff;
+                          font-size: 67px;
+
+                        }
+                        #{$price-card}-decimal
+                        {
+                          color: #fff;
+                          display: block;
+                          font-size: 28px;
+                          margin-left: -20px;
+                        }
+                        #{$price-card}-monthly
+                        {
+                          color: #fff;
+                          display: block;
+                          font-family: montserrat;
+                        }
+
+
+                          #{$price-card}-list
+                          {
+
+                            font-weight: bold;
+                          }
+                          #{$price-card}-sign-up-now
+                          {
+
+                                              border: 1px solid #ac9455;
+                                              padding: 13px 36px;
+                                              border-radius: 20px;
+                                              text-decoration: none;
+                                              color: white;
+                                              background-color: #ac9455;
+                                              font-family: montserrat-semibold;
+                                              font-size: 12px;
+                                              letter-spacing: 0.1em;
+
+                          }
+
+
+                  }
+
+
+
+}
